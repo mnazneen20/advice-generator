@@ -10,13 +10,13 @@ main{
     height: 92vh;
     width: 100vw;
     position: relative;
-    background-color: hsl(217, 19%, 24%);
+    background-color: hsl(218, 23%, 16%);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .card{
-    background-color: hsl(217, 19%, 38%);
+    background-color: hsl(217, 19%, 24%);
     height: auto;
     width: 500px;
     border-radius: 12px;
@@ -67,7 +67,7 @@ footer{
     padding: 5px 0;
     color: hsl(193, 38%, 86%);
     height: 8vh;
-    background-color: hsl(217, 19%, 24%);
+    background-color: hsl(218, 23%, 16%);
 }
 footer a:active, footer a:hover, footer a:link, footer a:visited{
     color: hsl(150, 100%, 66%);
