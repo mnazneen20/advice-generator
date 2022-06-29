@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+main{
+    height: 92vh;
+    width: 100vw;
+    position: relative;
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: hsl(217, 19%, 38%);
+    height: auto;
+    width: 500px;
+    border-radius: 12px;
+    position: relative;
+    padding: 40px 50px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.advice{
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+.advice div{
+    padding: 20px 0;
+}
+.advicenum{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: hsl(150, 100%, 66%);
+}
+.card img{
+    width: 100%;
+}
+.img2{
+    display: none;
+}
+.dice{
+    position: absolute;
+    top: 90%;
+    height: 55px;
+    width: 55px;
+    background: hsl(150, 100%, 66%);
+    padding: 18px;
+    border-radius: 50%;
+    text-align: center;
+}
+.dice:hover{
+    cursor: pointer;
+    box-shadow: 0 0 20px hsl(150, 100%, 66%);
+}
+
+footer{
+    text-align: center;
+    padding: 5px 0;
+    color: hsl(193, 38%, 86%);
+    height: 8vh;
+    background-color: hsl(217, 19%, 24%);
+}
+footer a:active, footer a:hover, footer a:link, footer a:visited{
+    color: hsl(150, 100%, 66%);
+}
+
+@media screen and (max-width:600px) {
+    .card{
+        width: 90%;
+        padding: 40px 30px 50px;
+    }
+    .img1{
+        display: none;
+    }
+    .img2{
+        display: block;
+    }
+    .advice{
+        font-size: 25px;
+    }
+}
